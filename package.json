@@ -1,14 +1,29 @@
 {
   "name": "neural-color-picker",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "NodeJS module using brain.js to guess if the color is light or dark",
-  "main": "server.js",
+  "main": "neural-color-picker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash-joshi/neural-color-picker.git"
+  },
+  "keywords": [
+    "color",
+    "contrast",
+    "font",
+    "background",
+    "brain.js",
+    "neural networks"
+  ]
+  ,
   "author": "Akash Joshi",
   "license": "MIT",
   "dependencies": {
     "brain.js": "^1.1.2"
-  }
+  },
+  "homepage": "https://github.com/akash-joshi/neural-color-picker"
 }
