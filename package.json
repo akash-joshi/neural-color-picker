@@ -1,6 +1,6 @@
 {
   "name": "neural-color-picker",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "NodeJS module using brain.js to tell you if your font should be light or dark",
   "main": "neural-color-picker.js",
   "scripts": {
