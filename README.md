@@ -7,14 +7,14 @@ NodeJS module using brain.js which takes background color as input in form of (r
     $ npm i neural-color-picker --save
 
 ## Usage
-
+Your input will be the color of the background
 ```javascript
 const color=require('neural-color-picker')
 console.log(color(255,255,255))
 ```
 
 ## Output
-
+Output is what color your foreground text should be
 ```
 dark
 ```
