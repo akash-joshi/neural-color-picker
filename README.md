@@ -5,7 +5,15 @@ NodeJS module using brain.js which takes background color as input in form of (r
 
 ## Installation
 
+> For node
+
     $ npm i neural-color-picker --save
+
+> For browser
+
+Use ```<meta charset="utf-8" />``` in the ```head``` tag
+
+```<script src="https://unpkg.com/neural-color-picker@1.1.4/dist/neural.js"></script>```
 
 ## Usage
 Your input will be the color of the background
