@@ -11,12 +11,8 @@ JavaScript library using a Recurrent Neural Network which takes background color
 
 > For Browser
 
-Use ```<meta charset="utf-8" />``` in the ```head``` tag,
-and include this in your HTML
+	<script src="https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"></script>
 
-```html 
-<script src="https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"></script>
-```
 
 ## Usage
 Your input will be the color of the background
