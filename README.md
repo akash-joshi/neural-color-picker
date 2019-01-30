@@ -1,7 +1,7 @@
 # neural-color-picker
 ![Downloads shield](https://img.shields.io/npm/dt/neural-color-picker.svg)
 
-NodeJS module using brain.js which takes background color as input in form of (red,green,blue) and gives output whether forefront text should be light or dark.
+JavaScript library using a Recurrent Neural Network which takes background color as input in form of (red,green,blue) and gives output whether forefront text should be light or dark.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Use ```<meta charset="utf-8" />``` in the ```head``` tag,
 and include this in your HTML
 
 ```html 
-<script src="https://unpkg.com/neural-color-picker@1.1.4/dist/neural.js"></script>
+<script src="https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"></script>
 ```
 
 ## Usage
