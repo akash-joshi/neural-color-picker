@@ -25,5 +25,5 @@
   "dependencies": {
     "brain.js": "^1.1.2"
   },
-  "homepage": "https://github.com/akash-joshi/neural-color-picker"
+  "homepage": "https://color.js.org"
 }
