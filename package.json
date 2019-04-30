@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akash-joshi/neural-color-picker.git"
@@ -18,8 +17,7 @@
     "background",
     "brain.js",
     "neural networks"
-  ]
-  ,
+  ],
   "author": "Akash Joshi",
   "license": "MIT",
   "dependencies": {

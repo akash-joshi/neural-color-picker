@@ -1,40 +1,74 @@
-# neural-color-picker
-![Downloads shield](https://img.shields.io/npm/dt/neural-color-picker.svg)
+<div align = "center">
+<img alt="neural-color-picker" src="https://github.com/shubham-saudolla/media/blob/master/neural-color-picker/neuralColorPickerIcon.png?raw="true" width = "200"/>
 
-JavaScript library using a Recurrent Neural Network which takes background color as input in form of (red,green,blue) and gives output whether forefront text should be light or dark.
+# Neural Color Picker
+
+[![npm](https://img.shields.io/npm/v/neural-color-picker.svg?style=for-the-badge&labelColor=000000&color=4505ff)](https://www.npmjs.com/package/neural-color-picker)
+[![Downloads](https://img.shields.io/npm/dt/neural-color-picker.svg?style=for-the-badge&labelColor=000000)](https://www.npmjs.com/package/neural-color-picker)
+[![License](https://img.shields.io/npm/l/neural-color-picker.svg?style=for-the-badge&labelColor=000000&color=ff0666)](https://www.npmjs.com/package/neural-color-picker)
+</div>
+
+---
+
+# neural-color-picker
+
+A JavaScript library using a **Recurrent Neural Network**, which receives a background color as input in the form of (Red, Green, Blue) and outputs whether the foreground text should be light or dark.
+
+---
 
 ## Installation
 
-> For Node
+### Using npm
 
-    $ npm i neural-color-picker --save
+```console
+npm i neural-color-picker --save
+```
 
-> For Browser
+### Using the browser
 
-	<script src="https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"></script>
+```html
+<script src="https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"></script>
+```
 
+---
 
 ## Usage
+
 Your input will be the color of the background
 
-> For Node
+### Node
 
 ```javascript
 const color=require('neural-color-picker')
-console.log(color(255,255,255))
+console.log(color(255, 255, 255))
 ```
 
-> For Browser
+### Browser
 
 ```javascript
-console.log(neuralColor(255,255,255))
+console.log(neuralColor(255, 255, 255))
 ```
 
-## Output
+### Output
+
 Output is what color your foreground text should be
-```
+
+```console
 dark
 ```
 
+---
+
+## Support the project
+
+To show support for the project, you can do any (or many!) of the following:
+
+- [Star the repository.](https://github.com/akash-joshi/neural-color-picker)
+- [Follow me on twitter, and say hi!](https://twitter.com/akashtrikon)
+- [Donate via PayPal.](http://paypal.me/akashsjoshi)
+
+---
+
 ## License
-The MIT License (MIT)
+
+MIT License (MIT)
