@@ -39,7 +39,7 @@ Your input will be the color of the background
 ### Node
 
 ```javascript
-const color=require('neural-color-picker')
+const color = require('neural-color-picker')
 console.log(color(255, 255, 255))
 ```
 
