@@ -1,7 +1,7 @@
 <div align = "center">
-<img alt="neural-color-picker" src="https://github.com/shubham-saudolla/media/blob/master/neural-color-picker/neuralColorPickerIcon.png?raw="true" width = "200"/>
+<img src="https://raw.githubusercontent.com/shubham-saudolla/media/master/neural-color-picker/neuralColorPickerIcon.png" width = "200" />
 
-# Neural Color Picker
+<h1>Neural Color Picker</h1>
 
 [![npm](https://img.shields.io/npm/v/neural-color-picker.svg?style=for-the-badge&labelColor=000000&color=4505ff)](https://www.npmjs.com/package/neural-color-picker)
 [![Downloads](https://img.shields.io/npm/dt/neural-color-picker.svg?style=for-the-badge&labelColor=000000)](https://www.npmjs.com/package/neural-color-picker)

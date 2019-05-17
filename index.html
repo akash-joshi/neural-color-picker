@@ -1,0 +1,62 @@
+<head>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <style>
+    pre{
+        overflow: scroll;
+    }
+    code {
+        overflow: scroll;
+    }
+    </style>
+</head>
+<body>
+<div align = "center">
+    <img src="https://raw.githubusercontent.com/shubham-saudolla/media/master/neural-color-picker/neuralColorPickerIcon.png" width = "200" />
+    
+    <h1>Neural Color Picker</h1>
+    
+    <a href="https://www.npmjs.com/package/neural-color-picker"><img src="https://img.shields.io/npm/v/neural-color-picker.svg?style=for-the-badge&amp;labelColor=000000&amp;color=4505ff" alt="npm"></a>
+    <a href="https://www.npmjs.com/package/neural-color-picker"><img src="https://img.shields.io/npm/dt/neural-color-picker.svg?style=for-the-badge&amp;labelColor=000000" alt="Downloads"></a>
+    <a href="https://www.npmjs.com/package/neural-color-picker"><img src="https://img.shields.io/npm/l/neural-color-picker.svg?style=for-the-badge&amp;labelColor=000000&amp;color=ff0666" alt="License"></a>
+    <br />
+    <a href="https://www.buymeacoffee.com/akashjoshi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+    </div>
+    
+    <hr>
+    <h1 id="neural-color-picker">neural-color-picker</h1>
+    <p>A JavaScript library using a <strong>Recurrent Neural Network</strong>, which receives a background color as input in the form of (Red, Green, Blue) and outputs whether the foreground text should be light or dark.</p>
+    <hr>
+    <h2 id="installation">Installation</h2>
+    <h3 id="using-npm">Using npm</h3>
+    <pre><code class="lang-console">npm <span class="hljs-selector-tag">i</span> neural-<span class="hljs-attribute">color</span>-picker --save
+    </code></pre>
+    <h3 id="using-the-browser">Using the browser</h3>
+    <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://unpkg.com/neural-color-picker@1.2.1/dist/neural.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+    </code></pre>
+    <hr>
+    <h2 id="usage">Usage</h2>
+    <p>Your input will be the color of the background</p>
+    <h3 id="node">Node</h3>
+    <pre><code class="lang-javascript"><span class="hljs-keyword">const</span> <span class="hljs-built_in">color</span> = <span class="hljs-built_in">require</span>(<span class="hljs-string">'neural-color-picker'</span>)
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">color</span>(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>))
+    </code></pre>
+    <h3 id="browser">Browser</h3>
+    <pre><code class="lang-javascript">console.log(neuralColor(<span class="hljs-number">255</span>, <span class="hljs-number">255</span>, <span class="hljs-number">255</span>))
+    </code></pre>
+    <h3 id="output">Output</h3>
+    <p>Output is what color your foreground text should be</p>
+    <pre><code class="lang-console"><span class="hljs-attribute">dark</span>
+    </code></pre>
+    <hr>
+    <h2 id="support-the-project">Support the project</h2>
+    <p>To show support for the project, you can do any (or many!) of the following:</p>
+    <ul>
+    <li><a href="https://github.com/akash-joshi/neural-color-picker">Star the repository.</a></li>
+    <li><a href="https://twitter.com/akashtrikon">Follow me on twitter, and say hi!</a></li>
+    <li><a href="http://paypal.me/akashsjoshi">Donate via PayPal.</a></li>
+    </ul>
+    <a href="https://www.buymeacoffee.com/akashjoshi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+    <hr>
+    <h2 id="license">License</h2>
+    <p>MIT License (MIT)</p>
+</body>
